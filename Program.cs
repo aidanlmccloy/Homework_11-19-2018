@@ -17,10 +17,10 @@ namespace InterfacesDemo
                 double Damage = grendal.Attack(grendal.Armour);
                 grendal.TakeDamage(Damage);
                 Console.WriteLine($"Round: {Round}"); 
-                Console.WriteLine($"Grendal's health: {grendal.Health} Amrour:{grendal.Armour}");
+                Console.WriteLine($"Grendal's health: {grendal.Health} Armour:{grendal.Armour}");
                 Damage = yopapa.Attack(yopapa.Armour);
                 yopapa.TakeDamage(Damage);
-                Console.WriteLine($"Yopapa's health: {yopapa.Health} Amrour:{yopapa.Armour}" + "\n");
+                Console.WriteLine($"Yopapa's health: {yopapa.Health} Armour:{yopapa.Armour}" + "\n");
             }
             if (grendal.Health > 0)
             {
